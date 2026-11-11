@@ -8,19 +8,19 @@
     <link rel="stylesheet" href="MiniProj.css">
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
   </head>
   <body>
     <div class="main_box">
-      <input type="checkbox" id="check" />
+      <input type="checkbox" id="check" aria-label="Toggle navigation menu" aria-controls="sidebar-menu" />
       <div class="btn_one">
         <label for="check">
           <i class="fa-solid fa-bars"></i>
         </label>
       </div>
 
-      <div class="sidebar_menu">
+      <div class="sidebar_menu" id="sidebar-menu">
         <div class="logo">
           <a href="#">SAVINAV SHARMA</a>
         </div>
@@ -66,11 +66,11 @@
 
         <div class="social_media">
           <ul>
-            <a href="https://m.facebook.com/home.php"><i class="fa-brands fa-facebook"></i></i></a>
-            <a href="https://twitter.com/home"><i class="fa-brands fa-twitter"></i></a>
-            <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></i></a>
-            <a href="https://www.linkedin.com/feed/"><i class="fa-brands fa-linkedin"></i></a>
-            <a href="https://www.youtube.com/"><i class="fa-brands fa-youtube"></i></a>
+            <li><a href="https://m.facebook.com/home.php" aria-label="Facebook"><i class="fa-brands fa-facebook" aria-hidden="true"></i></a></li>
+            <li><a href="https://twitter.com/home" aria-label="Twitter"><i class="fa-brands fa-twitter" aria-hidden="true"></i></a></li>
+            <li><a href="https://www.instagram.com/" aria-label="Instagram"><i class="fa-brands fa-instagram" aria-hidden="true"></i></a></li>
+            <li><a href="https://www.linkedin.com/feed/" aria-label="LinkedIn"><i class="fa-brands fa-linkedin" aria-hidden="true"></i></a></li>
+            <li><a href="https://www.youtube.com/" aria-label="YouTube"><i class="fa-brands fa-youtube" aria-hidden="true"></i></a></li>
           </ul>
         </div>
       </div>
